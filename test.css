@@ -1,0 +1,43 @@
+.container{
+    border-top: 5px dotted green;
+    border-right: 4px solid black;
+    border-bottom: 20px double rgb(23,45,145);
+    padding-left: 4em;
+    width: 180px;
+    margin: 0 auto;
+}
+.box {
+    border: 1px solid #333333;
+    border-style: dotted;
+    border-right-width: 20px;
+    border-bottom-color: hotpink;
+    padding: 20px;
+
+}
+
+span {
+margin: 20px;
+padding: 20px;
+width: 80px;
+height: 50px;
+background-color: lighblue;
+border: 2px solid blue;
+display: inline-block;
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+.links-list a {
+    background-color: rgb(179,57,81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+}
+
+.links-list ul,a:hover {
+    background-color: rgd(66,28,40);
+    color: #fff;
+}
